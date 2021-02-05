@@ -1,0 +1,113 @@
+{
+    "window.restoreWindows": "all",
+    "window.newWindowDimensions": "inherit",
+    // "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+    "editor.suggest.showStatusBar": true,
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        120
+    ],
+    "editor.fontLigatures": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "breadcrumbs.enabled": true,
+    "git.openDiffOnClick": false,
+    "git.allowForcePush": true,
+    "http.proxyAuthorization": null,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "files.autoSave": "onFocusChange",
+    // "workbench.activityBar.visible": false,
+    // "editor.formatOnSave": true,
+    // "editor.renderWhitespace": "all",
+    // "files.insertFinalNewline": true,
+    // "files.trimTrailingWhitespace": true,
+    "editor.codeActionsOnSave": {
+        // "source.fixAll.tslint": true
+        // "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+        "**/dist": true,
+        "**/coverage": true,
+        ".history/**": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+    },
+    "[html]": {
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "html.format.wrapLineLength": 26,
+    // "html.format.enable": false,
+    // "eslint.validate": [
+    //     "html",
+    //     "javascript",
+    // ],
+    // A day number to purge local history. (0: no purge)
+    "local-history.daysLimit": 30,
+    "local-history.maxDisplay": 10,
+    "local-history.enabled": 2,
+    "macros": {
+        "getOutTheMethod": [
+            "editor.action.jumpToBracket",
+            "cursorRight",
+            "editor.action.insertLineAfter",
+            "editor.action.insertLineAfter"
+        ],
+        "commentLine": [
+            "editor.action.commentLine",
+            "cursorDown"
+        ]
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnPaste": false
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/bower_components": true,
+        "**/.history": true
+    },
+    //todo extension settings
+    "todohighlight.isEnable": true,
+    // scss extension settings
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "scss.scannerExclude": [
+        "**/.git",
+        "**/bower_components",
+        "**/.history"
+    ],
+    // typescript hero extension settings
+    "typescriptHero.imports.multiLineWrapThreshold": 100,
+    "typescriptHero.imports.disableImportsSorting": false,
+    "typescriptHero.imports.grouping": [
+        "Plains",
+        "Modules",
+        "/@infoblox/core/",
+        "Workspace"
+    ],
+    "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
+    "typescriptHero.imports.insertSemicolons": true,
+    "typescriptHero.imports.multiLineTrailingComma": false,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+}
